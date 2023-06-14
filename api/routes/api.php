@@ -20,5 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/test', function () {
     return response('Test API', 200)
-        ->header('Content-Type', 'application/json');
+        -> header('Content-Type', 'application/json');
 });
